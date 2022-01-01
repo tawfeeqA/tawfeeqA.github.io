@@ -18,15 +18,6 @@ function CheckValid(){
 
 }
 function generatesudoku(){
-    var sudokugrid = new Array(81);
-    while((checkVertical(sudokugrid)&&checkHorizontal(udokugrid)&&checkSquares(udokugrid))==false){
-        for(var i=0; i<sudokugrid.length;i++){
-            num = getRandomIntInclusive(0,9)
-            sudokugrid[i]=num;
-        }
-        console.log(sudokugrid);
-    }
-    console.log(sudokugrid);
 }
 function displayArray(arr){
     //Same function as clear basically. 
