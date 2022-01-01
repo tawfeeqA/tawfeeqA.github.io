@@ -173,4 +173,4 @@ document.getElementById('clear').onclick = function(){
 document.getElementById('checksolved').onclick = function(){
     checkSolved(g);
 }
-generatesudoku();
+
